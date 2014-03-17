@@ -1,0 +1,158 @@
+body{
+	overflow:hidden;
+	margin:0;
+}
+
+.container1{
+	width:100%;
+	background-color: #EFFDFC;
+}
+ 
+.menu{
+	width:100%;
+	height:100%;
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	-o-transform: scale(0.5);
+}
+
+.logo{
+	left: 50%;
+	top: 50%;
+	width: 300px;
+	margin-left: -150px;
+	margin-top: -70px;
+	position: absolute;
+	display: none;
+}
+
+.icon{
+	left: 50%;
+	top: 40%;
+	position: absolute;
+	height: 20%;
+	z-index:1000;
+	display: none;
+}
+
+.text{
+left: 50%;
+top: 50%;
+margin-left: 1px;
+margin-top: -197px;
+position: absolute;
+opacity: 0.7;
+z-index:0;
+display: none;
+}
+
+.thetext{
+left: 50%;
+top: 50%;
+width: 500px;
+margin-left: 200px;
+margin-top: -42px;
+position: absolute;
+opacity: 0.7;
+z-index:0;
+font-family: 'Dosis', sans-serif;
+display: none;
+}
+
+.title {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.description {
+font-size: 30px;
+}
+
+.text1{
+	color: #133152;
+}
+
+.text2{
+	color: #fb7a85;
+}
+
+.text3{
+	color: #fba55e;
+}
+
+.text4{
+	color: #63e2cb;
+}
+
+.text5{
+	color: #5fb2f7;
+}
+
+.circle {
+	left: 50%;
+	top: 50%;
+	width: 160px;
+	height: 397px;
+	margin-top: -198px;
+	margin-left: -79px;
+	background-size:160px 397px;
+	background-repeat:no-repeat;
+	position: absolute;	
+	cursor:  pointer;
+	display: none;
+	-webkit-transform: rotate(0deg) translate(281px);
+	-moz-transform: rotate(0deg) translate(281px);
+	-ms-transform: rotate(0deg) translate(281px);
+	-o-transform: rotate(0deg) translate(281px);
+}
+
+.circle:hover{
+	background-image: url("images/16.png");
+}
+
+.one{
+	background-image: url("images/11.png");
+}
+
+.two{
+	background-image: url("images/12.png");
+}
+
+.three{
+	background-image: url("images/13.png");
+}
+
+.four{
+	background-image: url("images/14.png");
+}
+
+.five{
+	background-image: url("images/15.png");
+}
+
+.circlecenter {
+	left: 50%;
+	top: 50%;
+	width: 420px;
+	height: 420px;
+	margin-top: -210px;
+	margin-left: -210px;
+	background-color: black;
+	position: absolute;
+	border-radius: 50%;
+}
+
+.circlearound{
+	left: 50%;
+	top: 50%;
+	width: 493px;
+	height: 493px;
+	margin-top: -346px;
+	margin-left: -346px;
+	background-color: white;
+	position: absolute;
+	border-radius: 50%;
+	border: 100px solid;
+	border-color:  black;
+}
